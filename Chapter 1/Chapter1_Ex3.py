@@ -1,0 +1,9 @@
+"""
+Chapter 1 Exercise 3 | Print date and time
+Write a Python program to display the current date and time.
+"""
+
+import datetime
+now = datetime.datetime.now()
+print ('current date and time')
+print(now.strftime("%Y-%m-d%H:%M:S"))
