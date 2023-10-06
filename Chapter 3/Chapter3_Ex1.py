@@ -1,5 +1,6 @@
 """
-Chapter 3 Exercise 1 | Names
+CHAPTER 3, EXERCISE 1 - NAMES 
+
 Store the names of a few of your friends in a list called names. Print each person’s name by accessing each element in the list, one at a
 
 time.
