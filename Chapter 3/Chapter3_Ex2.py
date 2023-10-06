@@ -12,3 +12,13 @@ personalized with the person’s name.
 names = ['Darrel', 'Nathan', 'Kenlee', 'Bayla', 'Yang']
 for name in names:
  print(f"Hey {name}! Have a lovely day")
+
+#Output 
+"""
+Hey Darrel! Have a lovely day
+Hey Nathan! Have a lovely day
+Hey Kenlee! Have a lovely day
+Hey Bayla! Have a lovely day
+Hey Yang! Have a lovely day
+ 
+"""
