@@ -8,3 +8,12 @@ time.
 names = ["Darrel", "Nathan", "Kenlee", "Bayla", "Yang"]
 for name in names:
   print(name)
+
+#Output 
+"""
+Darrel
+Nathan
+Kenlee
+Bayla
+Yang
+"""
