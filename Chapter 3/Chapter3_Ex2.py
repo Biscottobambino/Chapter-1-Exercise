@@ -1,5 +1,5 @@
 """
-CHAPTER 3, EXERCISE 1 - GREETINGS 
+CHAPTER 3, EXERCISE 2 - GREETINGS 
 
 Start with the list you used in Exercise 1, but instead of just
 
