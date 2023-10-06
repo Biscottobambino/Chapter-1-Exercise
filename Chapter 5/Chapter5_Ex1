@@ -1,1 +1,13 @@
+"""
+Use a dictionary to store information about a person you know.Store their first name, last name, age, and the city in which they live. You
 
+should have keys such as first_name, last_name, age, and city. Print each piece of information stored in your dictionary.
+
+"""
+#Make dictionary, and add values 
+Person_1= {'first_name': 'Kenlee', 'last_name': 'Labordo', 'age': '17', 'city': 'Batangas',}
+#to display values, print type of value 
+print(Person_1['first_name'])
+print(Person_1['last_name'])
+print(Person_1['age'])
+print(Person_1['city'])
