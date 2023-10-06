@@ -1,1 +1,33 @@
+"""
+Make a list of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your list.
 
+•Make a list of your three favorite fruits and call it favorite_fruits.
+
+•Write five if statements. Each should check whether a certain kind of fruit is in your list. If the fruit is in your list, the if block
+
+should print a statement,such as You really like bananas!
+
+"""
+#wrote down my favorite fruits
+favourite_fruit=['Lychee','Rambutan','Grapes','Apples']
+# make the 'if' statements as response
+if 'Lychee' in favourite_fruit:
+  print('you must really like lychee.')
+  
+if 'Rambutan' in favourite_fruit:
+  print('Really, I love Rambutans.')
+  
+if 'Grapes' in favourite_fruit:
+  print('Grapes are alright I guess.')
+  
+if 'Apples' in favourite_fruit:
+  print('Basic answer, but still nice.')
+
+#Output 
+"""
+you must really like lychee.
+Really, I love Rambutans.
+Grapes are alright I guess.
+Basic answer, but still nice.
+
+"""
