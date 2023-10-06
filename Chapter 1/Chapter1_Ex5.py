@@ -1,5 +1,5 @@
 """
-CHAPTER 1, EXERCISE 5 - 
+CHAPTER 1, EXERCISE 5 - COMPUTE THE AREA OF CIRCLE 
 Write a Python program which accepts the radius of a circle from the user and compute the area.
 
 
