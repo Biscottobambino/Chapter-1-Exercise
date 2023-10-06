@@ -1,5 +1,6 @@
 """
-Chapter 2 Exercise 3
+CHAPTER 2, EXERCISE 3 - STRIPPING NAMES 
+
 Tidy up the code to make it easier to understand
 Use a variable to represent a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, “\t” and “\n”, at least once.
 Print the name once, so the whitespace around the name is displayed.
@@ -18,3 +19,20 @@ print(name.rstrip())
 
 print("\nUsing strip():")
 print(name.strip())
+
+"""
+Output
+unmodified:
+    Kenlee Perez Labordo
+
+
+Using lstrip():
+Kenlee Perez Labordo
+
+
+Using rstrip():
+    Kenlee Perez Labordo
+
+Using strip():
+Kenlee Perez Labordo
+"""
