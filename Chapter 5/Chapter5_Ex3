@@ -8,4 +8,16 @@ calls with a loop that runs through the dictionary’s keys and values. When you
 to your glossary.When you run your program again, these new words and meanings should automatically be included in the output.
 
 """
+# Create a glossary by inputting the terms and meanings
+glossary = {
+   "Lists": "Lists are ordered collections and intercangable set of data.",
+  "Loop": "repeating statements until condition is satisfied. ", 
+  "Operators": "Special symbols that change the outcome of data.", 
+  "Conditional statements": "They control the flow of information in a data set."      
 
+}
+
+# Print each word and its meaning with a newline in between
+for word, meaning in glossary.items():
+    print(word + ":")
+    print(meaning + "\n")
