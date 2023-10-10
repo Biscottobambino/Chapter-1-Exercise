@@ -1,1 +1,52 @@
+"""
+CHAPTER 5, EXERCISE 4 - RIVERS 
+Make a dictionary containing three major rivers and the country each river runs through. One key-value pair might be 'nile': 'egypt'.
+
+Use a loop to print a sentence about each river, such as The Nile runs through Egypt.
+
+Use a loop to print the name of each river included in the dictionary.
+
+Use a loop to print the name of each country included in the dictionary.
+
+   
+"""
+
+# # Make a dictionary for ever major river and the country they run through. 
+rivers = {
+    "Zaire River": "Congo",
+    "Yellow River": "China",
+    "Parane River": "Paraguay"
+}
+
+# Print a sentence about the river
+for river, country in rivers.items():
+    print(f"The {river} runs through {country}.")
+
+# Print the names of the rivers
+print("\nList of rivers:")
+for river in rivers.keys():
+    print(river)
+
+# Print the names of the countries 
+print("\nList of countries:")
+for country in rivers.values():
+    print(country)
+
+""" 
+Output:
+
+The Zaire River runs through Congo.
+The Yellow River runs through China.
+The Parane River runs through Paraguay.
+
+List of rivers:
+Zaire River
+Yellow River
+Parane River
+
+List of countries:
+Congo
+China
+Paraguay
+"""
 
