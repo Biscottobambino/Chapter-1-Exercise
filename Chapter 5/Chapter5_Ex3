@@ -21,3 +21,20 @@ glossary = {
 for word, meaning in glossary.items():
     print(word + ":")
     print(meaning + "\n")
+
+"""
+Output: 
+
+Lists:
+Lists are ordered collections and intercangable set of data.
+
+Loop:
+repeating statements until condition is satisfied. 
+
+Operators:
+Special symbols that change the outcome of data.
+
+Conditional statements:
+They control the flow of information in a data set.
+
+
