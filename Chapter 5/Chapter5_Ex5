@@ -1,1 +1,46 @@
 
+"""
+CHAPTER 5 EXERCISE 5
+Make several dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal and the
+
+owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and asyou do, print everything you know about
+
+each pet
+"""
+
+# Make dictionaries which includes different pets, and name of owner. 
+pets = [
+    {"kind": "Iguana", "owner": "Shanice"},
+    {"kind": "Capybara", "owner": "Houston"},
+    {"kind": "Tarantula", "owner": "Jay"},
+    {"kind": "Snake", "owner": "Ashley"},
+    {"kind": "Hamster", "owner": "Morpheus"}
+]
+
+# Loop over the list which cycles through pet name and owner. 
+for pet in pets:
+    print(f"Kind of Animal: {pet['kind']}")
+    print(f"Owner's Name: {pet['owner']}\n")
+
+"""
+Output:
+
+Kind of Animal: Iguana
+Owner's Name: Shanice
+
+Kind of Animal: Capybara
+Owner's Name: Houston
+
+Kind of Animal: Tarantula
+Owner's Name: Jay
+
+Kind of Animal: Snake
+Owner's Name: Ashley
+
+Kind of Animal: Hamster
+Owner's Name: Morpheus
+
+"""
+
+
+
