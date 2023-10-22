@@ -2,11 +2,11 @@
 CHAPTER 1, EXERCISE 2 - PRINT THE VERSION OF PYTHON 
 Write a Python program to get the Python version you are using.
 """
-import sys
+import sys #Import system 
 print('python version')
-print(sys.version)
+print(sys.version) #show system version 
 print('version info')
-print(sys.version_info)
+print(sys.version_info) #Show version information 
 
 """
 Output: 
